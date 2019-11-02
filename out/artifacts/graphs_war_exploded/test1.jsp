@@ -14,9 +14,9 @@
 <body>
 <h3>Hi</h3>
 
-<%--<c:forEach var="stringFromList" items="${nameAttribute}">--%>
-<%--        ${stringFromList}<br>--%>
-<%--</c:forEach>--%>
+<c:forEach var="stringFromList" items="${nameAttribute}">
+        ${stringFromList}<br>
+</c:forEach>
 
 <%--<%--%>
 <%--    List<String> testList = new ArrayList<>();--%>
@@ -31,7 +31,10 @@ request.getAttribute("nameAttribute")%>
 
 <br>
 Your list is:<br>
-<%=request.getAttribute("myList")%>
+<%=request.getAttribute("myList")%><br>
+<h4>Elements</h4>
+
+
 
 <br>
 
