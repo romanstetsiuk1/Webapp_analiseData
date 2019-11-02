@@ -15,8 +15,9 @@
 <h3>Hi</h3>
 
 <c:forEach var="stringFromList" items="${nameAttribute}">
-        ${stringFromList}<br>
+    ${stringFromList}<br>
 </c:forEach>
+
 
 <%--<%--%>
 <%--    List<String> testList = new ArrayList<>();--%>
@@ -33,7 +34,6 @@ request.getAttribute("nameAttribute")%>
 Your list is:<br>
 <%=request.getAttribute("myList")%><br>
 <h4>Elements</h4>
-
 
 
 <br>

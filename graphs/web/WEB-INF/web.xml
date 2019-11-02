@@ -21,6 +21,15 @@
         <servlet-name>TestListServlet</servlet-name>
         <url-pattern>/test1</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>GetDataTotalClTr</servlet-name>
+        <servlet-class>GetDataTotalClTr</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetDataTotalClTr</servlet-name>
+        <url-pattern>/totalClosedTransactions</url-pattern>
+    </servlet-mapping>
 
 </web-app>
 
