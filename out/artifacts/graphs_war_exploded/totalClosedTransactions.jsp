@@ -1,4 +1,4 @@
-<%--
+<%@ page import="java.sql.*" %><%--
   Created by IntelliJ IDEA.
   User: roman
   Date: 02.11.2019
@@ -14,7 +14,15 @@
 
 <h2>Welcome to total C.T.</h2>
 
-<p>number: <%=request.getAttribute("test")%></p>
+<p>number: <%=request.getAttribute("test")%>
+</p>
+<h1>${test}</h1>
+<h3>Data from data base</h3>
+<%=request.getAttribute("db")%>
+
+
+<h1>Boo</h1>
+
 
 </body>
 </html>

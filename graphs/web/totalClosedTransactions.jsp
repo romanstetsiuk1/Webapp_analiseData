@@ -1,3 +1,7 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@taglib prefix="sql" uri="http://java.sun.com/jsp/jstl/sql"%>
+<%@ page import="java.sql.*" %>
+
 <%--
   Created by IntelliJ IDEA.
   User: roman
@@ -16,6 +20,13 @@
 
 <p>number: <%=request.getAttribute("test")%>
 </p>
+<h1>${test}</h1>
+<h3>Data from data base</h3>
+<%=request.getAttribute("db")%>
+
+
+<h1>Boo</h1>
+
 
 </body>
 </html>
